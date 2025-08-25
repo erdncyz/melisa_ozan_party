@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melisa & Ozan - After Party</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="main-title">Melisa & Ozan</h1>
+                <p class="subtitle">After Party</p>
+                <div class="date-location">
+                    <div class="date">
+                        <i class="fas fa-calendar-alt"></i>
+                        <span>14 Eylül 2025</span>
+                    </div>
+                    <div class="time">
+                        <i class="fas fa-clock"></i>
+                        <span>18:30</span>
+                    </div>
+                    <div class="location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Bluevert Tarabya</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="floating-hearts">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-heart"></i>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Event Details -->
+    <section class="event-details">
+        <div class="container">
+            <h2 class="section-title">Etkinlik Detayları</h2>
+            
+            <div class="details-grid">
+                <div class="detail-card">
+                    <div class="icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3>Yemek Menüsü</h3>
+                    <ul>
+                        <li><strong>Başlangıç:</strong> Meze çeşitleri</li>
+                        <li><strong>Ara Sıcak:</strong> Ispanaklı & mantarlı krep bohçası</li>
+                        <li><strong>Ana Yemek:</strong> Piliç Sultan Sarma & tereyağlı bademli pilav</li>
+                        <li><strong>Tatlı:</strong> Pasta 🍰</li>
+                    </ul>
+                </div>
+
+                <div class="detail-card">
+                    <div class="icon">
+                        <i class="fas fa-wine-glass-alt"></i>
+                    </div>
+                    <h3>İçecekler</h3>
+                    <ul>
+                        <li>Rakı</li>
+                        <li>Şarap</li>
+                        <li>Soft içecekler</li>
+                        <li>Dileyen kendi içeceğini getirebilir 🍾</li>
+                    </ul>
+                </div>
+
+                <div class="detail-card">
+                    <div class="icon">
+                        <i class="fas fa-money-bill-wave"></i>
+                    </div>
+                    <h3>Ücret</h3>
+                    <div class="price">
+                        <span class="amount">1700 TL</span>
+                        <span class="per-person">Kişi Başı</span>
+                    </div>
+                </div>
+
+                <div class="detail-card">
+                    <div class="icon">
+                        <i class="fas fa-calendar-check"></i>
+                    </div>
+                    <h3>Son Katılım</h3>
+                    <p><strong>4 Eylül Perşembe</strong></p>
+                    <p>Katılım için aşağıdaki numaraya mesaj atın:</p>
+                    <a href="tel:+905514353403" class="phone-link">
+                        <i class="fas fa-phone"></i>
+                        0551 435 34 03
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Payment Info -->
+    <section class="payment-info">
+        <div class="container">
+            <h2 class="section-title">Ödeme Bilgileri</h2>
+            <div class="payment-card">
+                <div class="bank-info">
+                    <h3>Banka Hesap Bilgileri</h3>
+                    <div class="account-details">
+                        <p><strong>Hesap Sahibi:</strong> Ozan Güzel</p>
+                        <p><strong>IBAN:</strong> TR64 0006 4000 0012 4010 9971 14</p>
+                    </div>
+                    <button class="copy-btn" onclick="copyIBAN()">
+                        <i class="fas fa-copy"></i>
+                        IBAN'ı Kopyala
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location -->
+    <section class="location-section">
+        <div class="container">
+            <h2 class="section-title">Konum</h2>
+            <div class="location-card">
+                <div class="map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3008.9633693839303!2d29.0567693!3d41.1234567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDHCsDA3JzM0LjQiTiAyOcKwMDMnMjQuNCJF!5e0!3m2!1str!2str!4v1234567890"
+                        width="100%" 
+                        height="300" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+                <div class="location-details">
+                    <h3>Bluevert Tarabya</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Tarabya, İstanbul</p>
+                    <a href="https://maps.app.goo.gl/diS35wWozQxxGBgE8?g_st=ipc" target="_blank" class="directions-btn">
+                        <i class="fas fa-directions"></i>
+                        Yol Tarifi Al
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Countdown Section -->
+    <section class="countdown-section">
+        <div class="container">
+            <h2 class="section-title">Son Katılım Tarihi</h2>
+            <div class="countdown-content">
+                <div class="countdown-card">
+                    <div class="countdown-icon">
+                        <i class="fas fa-hourglass-half"></i>
+                    </div>
+                    <h3>Kalan Süre</h3>
+                    <div class="countdown-timer">
+                        <div class="countdown-item">
+                            <span class="countdown-number" id="days">00</span>
+                            <span class="countdown-label">Gün</span>
+                        </div>
+                        <div class="countdown-item">
+                            <span class="countdown-number" id="hours">00</span>
+                            <span class="countdown-label">Saat</span>
+                        </div>
+                        <div class="countdown-item">
+                            <span class="countdown-number" id="minutes">00</span>
+                            <span class="countdown-label">Dakika</span>
+                        </div>
+                        <div class="countdown-item">
+                            <span class="countdown-number" id="seconds">00</span>
+                            <span class="countdown-label">Saniye</span>
+                        </div>
+                    </div>
+                    <p class="countdown-note">4 Eylül Perşembe'ye kadar katılım durumunuzu belirtin</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RSVP Section -->
+    <section class="rsvp-section">
+        <div class="container">
+            <h2 class="section-title">Katılım Durumu</h2>
+            <div class="rsvp-content">
+                <div class="rsvp-card">
+                    <div class="rsvp-icon">
+                        <i class="fas fa-calendar-check"></i>
+                    </div>
+                    <h3>Katılım Durumunuzu Belirtin</h3>
+                    <p>Katılım durumunuzu belirtmek için aşağıdaki numaraya mesaj atın:</p>
+                    <div class="contact-info">
+                        <a href="tel:+905396488806" class="contact-btn">
+                            <i class="fas fa-phone"></i>
+                            <span>+90 539 648 88 06</span>
+                        </a>
+                        <a href="https://wa.me/905396488806?text=Merhaba! Melisa & Ozan'ın after partisine katılım durumumu belirtmek istiyorum." target="_blank" class="contact-btn whatsapp">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>WhatsApp Mesaj Gönder</span>
+                        </a>
+                    </div>
+                    <div class="deadline-info">
+                        <i class="fas fa-clock"></i>
+                        <span>Son Katılım: 4 Eylül Perşembe</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <h3>Melisa & Ozan</h3>
+                    <p>Herkesin katılımını bekliyoruz, çok keyifli bir gece olacak 🤍🥳✨</p>
+                </div>
+                <div class="footer-contact">
+                    <p><i class="fas fa-phone"></i> +90 539 648 88 06</p>
+                    <p><i class="fas fa-calendar"></i> 14 Eylül 2025</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
